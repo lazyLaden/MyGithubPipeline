@@ -49,7 +49,7 @@ pipeline {
         }
         stage('DeployToProduction') {
             steps {
-                echo "Depoloying code to prodcution:AWS CodeDeploy running. This is the change!"
+                echo "Depoloying code to prodcution:AWS CodeDeploy running. "
             }
         }
     }
